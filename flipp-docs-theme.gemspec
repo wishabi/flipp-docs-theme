@@ -1,13 +1,13 @@
 # coding: utf-8
 
 Gem::Specification.new do |spec|
-  spec.name          = "flipp-docs"
-  spec.version       = "0.1.0"
-  spec.authors       = ["Adam Petrie"]
-  spec.email         = ["adam.petrie@wishabi.com"]
+  spec.name          = "flipp-docs-theme"
+  spec.version       = "0.3.0"
+  spec.authors       = ["Adam Petrie, Abdul Munda, Adam Hijleh"]
+  spec.email         = ["devs@flipp.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = "Doc theme for Flipp Microservices"
+  spec.homepage      = "https://github.com/wishabi/flipp-docs-theme"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r{^(assets|_layouts|_includes|_sass|LICENSE|README)}i) }
